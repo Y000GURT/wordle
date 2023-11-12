@@ -1,0 +1,26 @@
+.keyBoard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.keyBoard__row{
+    display: flex;
+    justify-content: center;
+}
+.key{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(217, 232, 235);
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    line-height: 50px;
+    text-align: center;
+    margin: 4px;
+    cursor: pointer;
+}
+.keyGrey{
+    background-color: rgb(100, 130, 147);
+    color: white;
+}

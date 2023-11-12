@@ -1,0 +1,16 @@
+.rowSquare{
+    display: flex;
+}
+
+@keyframes reverseAnim {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+.rowSquare.entering{
+    animation: reverseAnim 0.3s linear;
+}

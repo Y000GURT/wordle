@@ -1,0 +1,40 @@
+.square{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(217, 232, 235);
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    line-height: 60px;
+    text-align: center;
+    margin: 8px;
+}
+.squareGrey{
+    background-color: rgb(100, 130, 147);
+    color: white;
+}
+.squareYellow{
+    background-color: rgb(230, 169, 29);
+    color: white;
+}
+.squareGreen{
+    background-color: rgb(0, 197, 43);
+    color: white;
+}
+
+@keyframes newLetter {
+    0%{
+        transform: scale(90%);
+    }
+    50%{
+        transform: scale(110%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
+
+.square.entering{
+    animation: newLetter 0.5s linear;
+}
